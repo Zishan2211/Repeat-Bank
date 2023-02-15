@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tailwind CSS link  -->
+    <script src="https://cdn.tailwindcss.com"></script> 
+    <title>Let's Go Repeat Bank</title>
+    <link rel="icon" type="image/x-icon" href="/image/blue-bank-icon-in-flat-style-with-the-building-facade-with-three--26.png">
+</head>
+
+<body>
+    <header>
+        <h1 class="text-6xl	font-normal text-center mt-14">Let's <span class="text-cyan-700">Go</span> <span
+                class="text-yellow-700 font-black">Re<span class="text-cyan-700">P</span>eat</span> Bank
+        </h1>
+    </header>
+    <main>
+        <section class="">
+            <div class="grid grid-cols-3 gap-4 w-9/12 mx-auto mt-12 text-white">
+                <div class="bg-green-700 p-8 rounded-xl	">
+                    <h2 class="text-2xl">Deposit</h2>
+                    <p class="text-5xl">$<span id="deposit-total">00</span></p>
+                </div>
+                <div class="bg-cyan-900 p-8 rounded-xl	">
+                    <h2 class="text-2xl">Withdraw</h2>
+                    <p class="text-5xl">$<span id="Withdraw-total">00</span></p>
+                </div>
+                <div class="bg-red-800 p-8 rounded-xl	">
+                    <h2 class="text-2xl">Balance</h2>
+                    <p class="text-5xl">$<span id="Balance-total">1240</span></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-8 w-9/12 mx-auto ">
+            <div class="grid grid-cols-2 gap-4 text-white">
+                <div class="bg-violet-900 p-8 rounded-xl	">
+                    <h2 class="text-2xl">Please Deposit</h2>
+                    <input class="mt-4 mb-5 w-9/12 text-black rounded-md p-3" type="text" name="" id="Deposit-field" placeholder="$ Amount you want to Deposit">
+                    <br>
+                    <button class="text-yellow-100 bg-yellow-900 p-3 font-light rounded-xl w-36 hover:bg-cyan-900"
+                        id="btn-deposit">De<span class="font-semibold text-cyan-600">PO</span>sit</button>
+                </div>
+                <div class="bg-violet-900 p-8 rounded-xl">
+                    <h2 class="text-2xl">Please Withdraw</h2>
+                    <input class="mt-4 mb-5 w-9/12 text-black rounded-md p-3" type="text" name="" id="Withdraw-field" placeholder="$ Amount you want to Withdraw">
+                    <br>
+                    <button class="text-yellow-100 bg-yellow-900 p-3 font-light rounded-xl w-36 hover:bg-cyan-900"
+                        id="btn-withdraw">Wit<span class="font-semibold text-cyan-600">HD</span>raw</button>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+    <!-- Javascript File link     -->
+
+    <script src="/Javascript/Withdraw.js"></script>
+    <script src="/Javascript/Deposit.js"></script>
+</body>
+
+</html>
